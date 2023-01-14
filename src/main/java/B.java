@@ -5,7 +5,7 @@ public class B extends A{
         B b =new B();
         System.out.println(b.meth());
     }
-    String meth(){
+   public static String meth(){
         return "Method is overridden in Extendend class B";
     }
 }
